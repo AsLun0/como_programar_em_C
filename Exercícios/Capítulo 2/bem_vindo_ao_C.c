@@ -1,7 +1,7 @@
-/* 2.2 Um Programa Simples em C: Imprimir uma Linha de 
-Texto2. */
+/* 2.2 Um Programa Simples em C: Imprimir uma Linha de Texto. */
 
 /* Primeiro programa em C */
+
 main(){
     printf("Bem-vindo ao C!\n");
 }
