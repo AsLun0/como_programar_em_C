@@ -15,9 +15,9 @@ main(){
     int x, y, z, resultado; // questão B
 
     printf("Entre com tres numeros inteiros: "); // questão C
-    scanf("%d%d%d",&x,&y,&z); // questão D
+    scanf("%d%d%d",&x, &y, &z); // questão D
 
-    resultado = x * y * z; //questão E
+    resultado = x + y + z; //questão E
 
     printf("O produto eh %d\n", resultado);
 

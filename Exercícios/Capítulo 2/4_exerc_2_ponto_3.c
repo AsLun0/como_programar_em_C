@@ -18,7 +18,7 @@ main(){
     int c, estaVariavel, q76395, numero; // questão A
 
     printf("Entre com um valor inteiro: "); // questão B
-    scanf("%d",&numero); // questão C
+    scanf("%d", &numero); // questão C
 
     if(numero != 7) // questão D
         printf("a variavel %d não eh gual a 7\n");

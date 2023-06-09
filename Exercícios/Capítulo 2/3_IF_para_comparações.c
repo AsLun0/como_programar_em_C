@@ -8,7 +8,7 @@ main(){
     printf("Entre com dois inteiros e lhe direi \n");
     printf("o relacionamento que ele satisfazem:");
 
-    scanf("%d%d",&num1,&num2);
+    scanf("%d%d",&num1, &num2);
     
     if(num1 == num2)
         printf("%d é igual a %d\n",num1,num2);
