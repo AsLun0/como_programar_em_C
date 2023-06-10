@@ -23,12 +23,12 @@ main(){
     if (x < y)
         menor = x;
     if (menor < z)
-        printf("O menor eh %d", menor);
+        printf("O menor eh %d\n", menor);
     
     if (x > y)
         maior = x;
     if (maior > z)
         printf("O maior eh %d\n", maior);
 
-return 0;
+    return 0;
 }
