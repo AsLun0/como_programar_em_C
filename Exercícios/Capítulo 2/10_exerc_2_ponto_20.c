@@ -4,11 +4,16 @@ cálculos dentro da instrução (ou instruções) printf e use o especificador d
 (Nota: Neste capítulo, analisamos apenas variáveis e constantes inteiras. No Capítulo 3 
 analisaremos números de ponto flutuante, i.e., valores que podem possuir pontos decimais.) */
 
+/*  Diametro é duas vezes o valor do raio
+    Area = PI * (raio * raio)
+    Circunferencia = 2 * PI * raio
+   */ 
+
 main(){
     float raio, pi = 3.14159;
 
     printf("Entre com o valor do raio de um circulo: ");
     scanf("%f", &raio);
 
-
+    printf("Diametro: %f\nCircunferencia: %f\nArea: %f", 2 * raio, 2 * pi * raio, pi * (raio * raio));
 }
